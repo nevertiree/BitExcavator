@@ -11,9 +11,9 @@ from sklearn import datasets,svm,metrics
 from  sklearn.model_selection import train_test_split
 
 # dataset path
-training_data_path = "E:\\WorkSpace\\MyKaggle\\DigitRecognizer\\DataSet\\train.csv"
-testing_data_path  = "E:\\WorkSpace\\MyKaggle\\DigitRecognizer\\DataSet\\test.csv"
-sample_data_path   = "E:\\WorkSpace\\MyKaggle\\DigitRecognizer\\DataSet\\sample_submission.csv"
+training_data_path = "E:\\WorkSpace\\Kaggle\\2.DigitRecognizer\\DataSet\\train.csv"
+testing_data_path  = "E:\\WorkSpace\\Kaggle\\2.DigitRecognizer\\DataSet\\test.csv"
+sample_data_path   = "E:\\WorkSpace\\Kaggle\\2.DigitRecognizer\\DataSet\\sample_submission.csv"
 
 # get training data, testing data and sample result
 training_data = get_csv_data(training_data_path)
