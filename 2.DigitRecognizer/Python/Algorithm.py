@@ -67,5 +67,3 @@ def print_predict_result(model, X_train, y_train, X_test, sample_output):
     writer = csv.writer(file('result.csv', 'wb'))
     for line in result:
         writer.writerow(line)
-
-    writer.close()
